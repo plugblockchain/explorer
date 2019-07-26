@@ -11,8 +11,12 @@ Prerequisites
 -   Docker
 -   PL^G node
     - when syncing with an existing chain please wait until sync is completed before starting Docker 
-    - for running a node locally on your machine follow instructions in [PL^G Blockchain](../../../plug-blockchain). Please ensure WebSocket is on `--ws-external` and node is accessible from Docker  
-    Optionally, you may want to build/run your node with Rust  `--release` option to overcome WASM optimization issue e.g.  
+    - for running a node locally on your machine follow instructions in [PL^G Blockchain](../../../plug-blockchain). 
+    
+        >PL^G blockchain is currently under development - please get the latest source code from [here](https://github.com/cennznet/plug-blockchain).
+
+        Please ensure WebSocket is on `--ws-external` and node is accessible from Docker  
+        Optionally, you may want to build/run your node with Rust  `--release` option to overcome WASM optimization issue e.g.  
 
       ```
       cargo build --release
