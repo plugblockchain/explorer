@@ -1,0 +1,44 @@
+.btn {
+  padding: .2rem 1.5rem;
+}
+
+.btn-primary {
+  color: $primary;
+  background-color: transparent;
+  border: 2px solid $primary;
+  border-radius: 3px;
+
+  &:hover {
+    color: white;
+    background-color: $primary;
+    border-color: $primary;
+  }
+
+  &:active {
+    background-color: $primary !important; 
+    border-color: $primary !important;
+  }
+}
+
+.btn-secondary {
+  background-color: $primary;
+  outline: none;
+
+  &:hover {
+    background-color: white;
+    color: $primary;
+  }
+
+  &:active {
+    background-color: white !important;
+    color: $primary !important;  
+    outline: $primary !important;
+  }
+}
+
+.btn-link {
+
+  &:hover {
+    color: $primary;
+  }
+}

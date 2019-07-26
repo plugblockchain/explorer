@@ -1,0 +1,7 @@
+@mixin block-size($w, $h:"") {
+  @if $h == "" {
+    $h: $w;
+  }
+  width: $w;
+  height: $h;
+}

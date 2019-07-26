@@ -1,0 +1,45 @@
+.header__icon {
+	display: inline-block;
+	width: 44px;
+	height: 30px;
+	background-image: url('../img/logo.png');
+	background-size: 100%;
+  margin: .8rem 2rem .8rem 0;
+}
+
+.nav-item {
+	& form {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	& input {
+		height: 30px;
+		margin-right: 10px;
+	}
+
+  .dropdown-menu {
+    background-color: $opaque-background
+  }
+  .dropdown-item {
+    color: white;
+
+    &:hover {
+      background-color: $primary;
+    }
+  }
+}
+
+.navbar {
+  .nav-item {
+    > a {
+      color: white;
+    }
+  }
+}
+
+.navbar-static-top .container
+{
+  width:100%;
+}
